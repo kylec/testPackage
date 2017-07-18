@@ -12,3 +12,6 @@ RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
+
+
+This is Dan's edit to the description.
