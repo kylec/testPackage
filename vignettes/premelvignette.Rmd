@@ -1,0 +1,26 @@
+---
+title: "Physiologic response data as a function of serum level"
+author: "Kyle Chang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Physiologic response data as a function of serum level}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r plot_trend}
+library(ggplot2)
+library(tidyverse)
+load_data()
+priemel %>% mutate(bone_quality = ifelse(OV.BV <=2, 1,0))
+ggplot(priemel, aes(x=SerumLevelInNgPerMl, y=OV.BV)) + geom_point()
+```
+```{r glm}
+#TODO: split data into training / testing
+set.seed(10)
+#dim(priemel)[1]
+
+```
+
+

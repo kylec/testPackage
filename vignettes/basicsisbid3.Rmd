@@ -1,0 +1,12 @@
+---
+title: "Processig steps use to generate data for this package"
+author: "Kyle Chang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Processig steps use to generate data for this package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+

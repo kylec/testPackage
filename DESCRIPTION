@@ -1,0 +1,14 @@
+Package: testPackage
+Type: Package
+Title: Test package
+Version: 0.1.0
+Author: Kyle Chang
+Maintainer: Kyle Chang <kchang3@mdanderson.org>
+Description: Learn how to create R package with nifty functions from r-studio
+License: BSD3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
