@@ -1,6 +1,6 @@
 #' Table of serum level and OV.BV ratio from Priemel et al 2010
 #'
-#' A dataset relating physiologic response to serum level
+#' A dataset relating physiologic response to serum level add a new description for the data
 #' @format This table is 675 by 2 \cr
 #' each row correspond to serum level and ratio of osteoid volume (OV) to bone volume (BV). \cr
 #' \strong{SerumLevelInNgPerMl} - serum level. \cr
